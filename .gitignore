@@ -1,0 +1,26 @@
+# dependencies
+
+backend/node_modules
+backend/yarn.lock
+
+herokud/node_modules
+herokud/yarn.lock
+herokud/.pnp
+herokud/.pnp.js
+
+# testing
+herokud/coverage
+
+# production
+herokud/build
+
+# misc
+herokud/.DS_Store
+herokud/.env.local
+herokud/.env.development.local
+herokud/.env.test.local
+herokud/.env.production.local
+
+herokud/npm-debug.log*
+herokud/yarn-debug.log*
+herokud/yarn-error.log*
