@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const User = require("../modules/User");
+const User = require("../models/user.js");
 
 router.get("/", (req, res) => {
   User.find()
@@ -29,3 +29,5 @@ router.post("/", (req, res) => {
       })
     );
 });
+
+module.exports = router;
